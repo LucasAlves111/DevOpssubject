@@ -95,7 +95,7 @@ const MetroLanding = () => {
             Banking for the Future
           </h2>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-            Experience financial freedom with Metro's cutting-edge digital banking platform
+            Experienc financial freedom with Metro's cutting-edge digital banking platform
           </p>
           <button className="group px-8 py-4 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 transition-all text-lg font-semibold inline-flex items-center">
             Start Your Journey <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
