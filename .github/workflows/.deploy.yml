@@ -31,7 +31,10 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Explorando o Runner
-        run: lsb_release -a
+        run: lsb_release -a 
+        
+      - name: Testing  the RAM
+        run: free -h 
 
       - name: Setup Node
         uses: actions/setup-node@v4
