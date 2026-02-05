@@ -29,6 +29,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      - name: Explorando o Runner
+        run: lsb_release -a
 
       - name: Setup Node
         uses: actions/setup-node@v4
